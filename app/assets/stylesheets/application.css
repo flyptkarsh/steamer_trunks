@@ -12,4 +12,12 @@
  *
  *= require_tree .
  *= require_self
+ *= require bootstrap/dist/css/bootstrap
+ *= require angular_google_places_autocomplete/src/autocomplete.css
  */
+
+ @import url(https://fonts.googleapis.com/css?family=Sacramento|Muli:400,300,300italic,400italic);
+
+ .cursive {
+  font-family: 'Sacramento', cursive;
+}

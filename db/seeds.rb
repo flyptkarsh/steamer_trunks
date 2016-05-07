@@ -3,5 +3,7 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
+trip_names = ["Honeymoon", "Dream", "Romp", "Summer", "Adventure" ]
+trips = Trip.create([{ },{ } ])
+cities = City.create([{ name: 'Paris' }, { name: 'Copenhagen' }, {name: 'Rome'}])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
