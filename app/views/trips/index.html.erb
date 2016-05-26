@@ -4,15 +4,22 @@
   <div> {{place}}</div>
 <div> -->
 <div ng-controller="TripsCtrl" >
-  <h6>Create A New Trip</h6>
-  <div class="input-group">
-    <input type="text" placeholder="Dream Honeymoon" class="form-control" ng-model="trip"/>
-    <span class="input-group-btn">
-      <button class="btn btn-default" type="button" ng-click="addTrip(trip)">Go!</button>
-    </span>
-  </div>
+
   <div class="row">
-    <div class="col-sm-6 col-md-4">
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img src="http://wetravelandblog.com/wp-content/uploads/2013/12/someday.jpg" alt="...">
+        <h6>Create A New Trip</h6>
+        <div class="input-group">
+          <input type="text" placeholder="Dream Honeymoon" class="form-control" ng-model="trip"/>
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button" ng-click="addTrip(trip)">Go!</button>
+          </span>
+        </div>
+      </div>
+    </div>
+  <div class="row">
+    <div class="col-sm-6 col-md-3">
       <div class="thumbnail">
         <img src="http://www.travelandleisure.com/sites/default/files/styles/1600x1000/public/1454344088/Paris-France-Stowe-Writer-Guide-QUOTES0116.jpg?itok=qQQ2dyuw" alt="...">
         <div class="caption">
@@ -20,7 +27,7 @@
         </div>
       </div>
     </div>
-    <div class="col-sm-6 col-md-4">
+    <div class="col-sm-6 col-md-3">
       <div class="thumbnail">
         <img src="http://www.travelandleisure.com/sites/default/files/styles/1600x1000/public/1454344088/Paris-France-Stowe-Writer-Guide-QUOTES0116.jpg?itok=qQQ2dyuw" alt="...">
         <div class="caption">
@@ -28,7 +35,7 @@
         </div>
       </div>
     </div>
-    
+
   </div>
 
 <div>

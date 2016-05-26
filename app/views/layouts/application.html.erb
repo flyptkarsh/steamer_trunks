@@ -12,8 +12,11 @@
 
 </head>
 <body ng-app="ngAppTrips">
-  <div class="container">
+  <div class="container" ng-controller="FBCtrl">
+
     <h1 class="cursive">Steamer Trunks</h1>
+    <hr>
+    <div class="fb-login-button" scope="public_profile" data-max-rows="1" data-size="medium" data-show-faces="true" data-auto-logout-link="true"></div>
     <hr>
     <%= yield %>
   </div>

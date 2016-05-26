@@ -15,4 +15,5 @@
 //= require turbolinks
 //= require angular/angular
 //= require angular_google_places_autocomplete/src/autocomplete.js
+//= require angular-easyfb/build/angular-easyfb.js
 //= require_tree .
